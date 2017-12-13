@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Nexa';
+    src: url('fonts/NexaBold.eot');
+    src: url('fonts/NexaBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/NexaBold.woff2') format('woff2'),
+        url('fonts/NexaBold.woff') format('woff'),
+        url('fonts/NexaBold.ttf') format('truetype'),
+        url('fonts/NexaBold.svg#NexaBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('fonts/NexaLight.eot');
+    src: url('fonts/NexaLight.eot?#iefix') format('embedded-opentype'),
+        url('fonts/NexaLight.woff2') format('woff2'),
+        url('fonts/NexaLight.woff') format('woff'),
+        url('fonts/NexaLight.ttf') format('truetype'),
+        url('fonts/NexaLight.svg#NexaLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+body {
+    background-image: url('img/bg.jpg');
+	background-color: #181818;
+	color: white;
+	font-family: 'Pluto Sans', sans-serif;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.004);
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+.logo-big {
+    text-align: center;
+	margin-bottom: 60px;
+    max-width: 300px;
+}
